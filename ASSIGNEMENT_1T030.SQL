@@ -78,7 +78,7 @@
     SELECT SUBSTR(JOB_ID,1,1)
     FROM EMPLOYEES;
     
-17.	--Display the length of first name for employees where last name contain character ‘b’ after 3rd position.
+17.	--Display the length of first name for employees where last name contain character â€˜bâ€™ after 3rd position.
     SELECT LENGTH(FIRST_NAME),LAST_NAME FROM EMPLOYEES
     WHERE LAST_NAME LIKE('%___b%');
     
